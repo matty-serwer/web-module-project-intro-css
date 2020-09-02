@@ -174,7 +174,14 @@ h1 {
 }
 
 .attention p .bold-text{
-    font-weight:900;
+    font-weight:900; /* I'd like this to be bolder */
 }
 
 /* ATTENTION section ends here */
+
+/* FOOTER starts here */
+
+.footer-image {
+    height:27rem;
+    overflow:hidden;
+}
