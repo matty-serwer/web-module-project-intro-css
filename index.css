@@ -1,3 +1,5 @@
+
+
 /* Eric Meyer CSS Reset begins here */
 
 html, body, div, span, applet, object, iframe,
@@ -56,12 +58,22 @@ html {
     font-size:62.5%;
 }
 
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-size:1.7rem;
+}
+
 body a {
     text-decoration:none;
-    font-size:2rem;
+    /* font-size:2rem; */
 
 }
 
+p {
+    margin: 2.5rem 0;
+}
+
+/* nav starts here */
 nav {
     text-align:center;
     margin:3% 0;
@@ -73,6 +85,7 @@ nav a {
     padding:2rem;
     margin:0 8%;
     border-radius:10px;
+    color:white;
 }
 
 .button-one {
@@ -85,4 +98,68 @@ nav a {
 
 .button-three {
     background-color:#FFCD69;
+}
+
+/* nav ends here */
+/* rest of header starts here */
+
+header {
+    margin-bottom: 5%
+}
+
+#logo {
+    width:25%;
+    display:inline-block;
+}
+
+#logo img {
+    border-radius:50%;
+}
+
+#header-section-two {
+    text-align:center;
+}
+
+#header-text {
+    display:inline-block;
+    text-align:center;
+}
+
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size:5rem;
+    margin-bottom: 8%;
+}
+
+.small-paragraph {
+    width: 50%;
+    margin:0 0 0 25%;
+}
+
+/* HEADER ends here */
+
+/* INFO section starts here */
+
+.info {
+    margin:0 auto;
+    text-align:center;
+    background-color:#DDB9A3;
+    width:90%;
+    color:white;
+    padding:1px;
+    margin-bottom: 3%;
+}
+
+/* INFO section ends here */
+
+/* ATTENTION section starts here */
+
+.attention {
+    text-align:center;
+}
+
+.attention img {
+    width:15%;
+    display:block;
+    margin:0 auto;
 }
