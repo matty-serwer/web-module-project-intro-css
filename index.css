@@ -82,10 +82,15 @@ nav {
 nav a {
     display:inline-block;
     width:150px;
-    padding:1.5rem;
+    padding:1rem 1.5rem;
     margin:0 8%;
     border-radius:10px;
     color:white;
+}
+
+nav a:hover {
+    color:black;
+    background-color:lightgreen;
 }
 
 header nav {
@@ -183,6 +188,7 @@ h1 {
 
 .attention p .bold-text{
     font-weight:900; /* I'd like this to be bolder */
+    font-weight:bold;
 }
 
 /* ATTENTION section ends here */
